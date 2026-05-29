@@ -1,0 +1,24 @@
+/* 1. Reset Global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 2. Variáveis */
+:root {
+    --cor-primaria: #0077b6;
+    --fonte-principal: 'Arial', sans-serif;
+}
+
+/* 3. Estilos de Tags */
+body {
+    font-family: var(--fonte-principal);
+    line-height: 1.6;
+}
+
+/* 4. Classes / Componentes */
+header {
+    background-color: var(--cor-primaria);
+    padding: 20px;
+}
