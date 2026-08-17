@@ -3,6 +3,11 @@ let tamanhoSenha = 12;
 
 const botoes = document.querySelectorAll('.parametro-senha__botao');
 
+const campoSenha = document.querySelector('#campo-senha');
+
+const letrasMaiusculas = 'ABCDEFGHIJKLMNOPQRSTUVXYWZ';
+campoSenha.value = letrasMaiusculas;
+
 botoes[0].onclick = diminuiTamanho;
 botoes[1].onclick = aumentaTamanho;
 
